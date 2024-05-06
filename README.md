@@ -11,6 +11,8 @@ The project contains 3 main folders reflecting the backend, frontend and mobile 
         - service: (where we have the database access or login functions for our endpoints)
             - appartments.services file
         - index.ts: (the start point of the application and managing how routes is being assigned to the routes files in the routes folder)
+    - Database used is sqlite
+    - Database connection and accessing implemented using TypeORM
 - Frontend
     -
     - In the frontend I created a sample next.js project and then added the needed feature inside it.
